@@ -1,0 +1,32 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 10px;
+    background-color: black;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo
+{
+    width: 130px;
+    border-radius: 5px;
+    margin-left:3rem;
+
+}
+
+.avathar
+{
+    width:55px;
+    border:1px solid black;
+    border-radius: 50px;
+    margin-right: 3rem;
+}
+
+.spacer
+{
+    flex:1;
+}
